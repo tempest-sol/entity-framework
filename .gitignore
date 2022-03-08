@@ -50,6 +50,7 @@ cache
 .vscode
 src/typechain
 types
+.openzeppelin
 
 # We use Yarn - prevent this file from being committed to avoid confusion
 package-lock.json
