@@ -38,8 +38,9 @@ const config: HardhatUserConfig = {
     gasReporter: {
       enabled: process.env.REPORT_GAS !== undefined,
       currency: "USD",
-      token: "ETH",
-      gasPriceApi: process.env.GAS_PRICE_API,
+      //token: "ETH",
+      gasPrice: 1,
+      //gasPriceApi: process.env.GAS_PRICE_API,
       coinmarketcap: process.env.API_KEY
     }
   };
