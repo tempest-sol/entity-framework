@@ -38,7 +38,8 @@ const networks: NetworksUserConfig = {
     accounts: [],
   },
   arbitrum: {
-    url: 'https://rinkeby.arbitrum.io/rpc',
+    url: 'https://arb1.arbitrum.io/rpc',
+    chainId: 42161,
     accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
   },
 };
